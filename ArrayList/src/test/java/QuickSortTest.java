@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 public class QuickSortTest {
 
-    MyList list = new MyArrayList();
+    MyList<Color> list = new MyArrayList();
 
     @Before
     public void setUp() {

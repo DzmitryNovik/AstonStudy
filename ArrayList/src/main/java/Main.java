@@ -8,7 +8,7 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
-        MyList list = new MyArrayList();
+        MyList<String> list = new MyArrayList();
         String color1 = "Зеленый";
         list.add(0, color1);
         String color2 = "Красный";

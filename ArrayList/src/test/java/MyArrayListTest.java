@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 public class MyArrayListTest {
 
-    MyList list = new MyArrayList();
+    MyList<Color> list = new MyArrayList();
     Color color0 = new Color("Зеленый");
     Color color1 = new Color("Красный");
     Color color2 = new Color("Белый");
@@ -63,7 +63,7 @@ public class MyArrayListTest {
 
     @Test
     public void increaseSize() {
-        MyList list = new MyArrayList<>();
+        MyList<String> list = new MyArrayList<>();
         for (int i = 0; i < 19; i++) {
             list.add("Строка");
         }

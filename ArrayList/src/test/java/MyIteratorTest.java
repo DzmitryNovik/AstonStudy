@@ -7,8 +7,8 @@ import static org.junit.Assert.*;
 
 public class MyIteratorTest {
 
-    MyList list = new MyArrayList();
-    Iterator iterator = list.iterator();
+    MyList<Color> list = new MyArrayList();
+    Iterator<Color> iterator = list.iterator();
 
     @Test
     public void hasNext() {
