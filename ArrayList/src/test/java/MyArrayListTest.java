@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 public class MyArrayListTest {
 
-    MyList<Color> list = new MyArrayList();
+    MyList<Color> list = new MyArrayList<>();
     Color color0 = new Color("Зеленый");
     Color color1 = new Color("Красный");
     Color color2 = new Color("Белый");
@@ -13,7 +13,7 @@ public class MyArrayListTest {
 
     @Test
     public void get() {
-        list = new MyArrayList();
+        list = new MyArrayList<>();
         add();
         assertEquals(list.get(0), color0);
         assertEquals(list.get(1), color1);
@@ -22,7 +22,7 @@ public class MyArrayListTest {
 
     @Test
     public void add() {
-        list = new MyArrayList();
+        list = new MyArrayList<>();
         list.add(color0);
         list.add(color1);
         list.add(color2);

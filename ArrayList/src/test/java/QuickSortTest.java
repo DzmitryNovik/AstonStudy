@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 public class QuickSortTest {
 
-    MyList<Color> list = new MyArrayList();
+    MyList<Color> list = new MyArrayList<>();
 
     @Before
     public void setUp() {
@@ -26,7 +26,7 @@ public class QuickSortTest {
         StringBuilder builder = new StringBuilder();
 
         for (int i = 0; i < 8; i++) {
-            Color color = (Color) list.get(i);
+            Color color = list.get(i);
             builder.append(color.getName());
             builder.append(" ");
         }

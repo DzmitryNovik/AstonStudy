@@ -1,4 +1,3 @@
-import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Iterator;
@@ -7,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class MyIteratorTest {
 
-    MyList<Color> list = new MyArrayList();
+    MyList<Color> list = new MyArrayList<>();
     Iterator<Color> iterator = list.iterator();
 
     @Test
